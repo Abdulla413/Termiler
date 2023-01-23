@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Alkatip_Tor";
+  src: url('../public/fonts/ALKATIP_TOR.TTF') format('truetype');
+}
+@font-face {
+  font-family: "Alkatip_Tor_Tom";
+  src: url('../public/fonts/ALKATIP_TOR_TOM.TTF') format('truetype');
+}
+@font-face {
+  font-family: "Alkatip_Ui";
+  src: url('../public/fonts/ALKATIP_UI.TTF') format('truetype');
+}
+@font-face {
+  font-family: "Ukijtitle";
+  src: url('../public/fonts/ukijtitle.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Ukijtztr";
+  src: url('../public/fonts/UKIJTzTr.ttf') format('truetype');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
